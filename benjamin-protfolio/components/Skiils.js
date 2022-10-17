@@ -13,7 +13,7 @@ const Skills = () => {
         <div className=' grid grid-cols-2 lg:grid-cols-4 gap-8'>
             {technicalSkills.map((skill,i)=>(
 
-          <div key={i} className='dark:bg-gradient-to-l from-slate-200 p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+          <div key={i} className='dark:bg-cyan-50 p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
                 <Image src={skill.img} width='64px' height='64px' alt='/' />

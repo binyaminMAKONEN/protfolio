@@ -1,22 +1,7 @@
 import Head from "next/head";
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillYoutube,
-} from "react-icons/ai";
-
 import { useState } from "react";
 import me from "../public/me.jpg";
-import css3 from "../public/css3.png";
-import github from "../public/github.png";
-import html5 from "../public/html5.png";
-import js from "../public/js.png";
-import mysql from "../public/mysql.png";
-import node from "../public/node.png";
-import sass from "../public/sass.png";
 import Image from "next/image";
-import web1 from "../public/web1.png";
-import spotifyApp from "../public/spotifyApp.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
@@ -25,13 +10,16 @@ import About from "../components/About";
 import Main from "../components/Main";
 import Skills from "../components/Skiils";
 import Nav  from "../components/Nav";
+import Projects from '../components/Projects'
+// import Link from 'next/link'
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   const activeDarkMode = () =>{
    setDarkMode(!darkMode)
   }
-  const skills = [css3, github, html5, js, mysql, node, sass];
+  // const skills = [css3, github, html5, js, mysql, node, sass];
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -50,7 +38,9 @@ export default function Home() {
         </section>
         <section className="py-10">
           <div>
+            {/* <Link href='/test'> */}
             <h3 className="text-3xl py-1 dark:text-white ">My Project</h3>
+            {/* </Link> */}
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
@@ -64,19 +54,20 @@ export default function Home() {
               programming and teaching.
             </p>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <Projects/>
+          {/* <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg "
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web1}
+                src={youTube}
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                className="rounded-lg object-cover"
+                className=""
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
@@ -119,7 +110,7 @@ export default function Home() {
                 src={web6}
               />
             </div>
-          </div>
+          </div> */}
         </section>
       </main>
     </div>
