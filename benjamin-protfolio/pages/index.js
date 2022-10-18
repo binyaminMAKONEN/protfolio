@@ -2,10 +2,6 @@ import Head from "next/head";
 import { useState } from "react";
 import me from "../public/me.jpg";
 import Image from "next/image";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
 import About from "../components/About";
 import Main from "../components/Main";
 import Skills from "../components/Skiils";
@@ -28,15 +24,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
-        <section className="min-h-[90vh]">
+        {/* <section className="min-h-[90vh]"> */}
           <Nav activeDarkMode={activeDarkMode}/>
-          <Main />
-        </section>
-        <section>
+          <Main me={me} />
+        {/* </section> */}
+        {/* <section> */}
           <About me={me} />
           <Skills />
-        </section>
-        <section className="py-10">
+        {/* </section> */}
+        {/* <section className="py-10"> */}
           <div>
             {/* <Link href='/test'> */}
             <h3 className="text-3xl py-1 dark:text-white ">My Project</h3>
@@ -111,7 +107,7 @@ export default function Home() {
               />
             </div>
           </div> */}
-        </section>
+        {/* </section> */}
       </main>
     </div>
   );

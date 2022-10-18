@@ -12,7 +12,7 @@ const About = ({me}) => {
           <p className='uppercase text-xl tracking-widest text-[#5651e5] dark:text-teal-400'>
             About
           </p>
-          <h2 className='py-4'>Who I Am</h2>
+          <h2 className='py-4 dark:text-white'>Who I Am</h2>
           <p className='py-2  text-gray-600 dark:text-white'>
             I specialize in building mobile responsive front-end UI applications
             that connect with API’s and other backend technologies. I’m
@@ -37,7 +37,7 @@ const About = ({me}) => {
             </p>
           {/* </Link> */}
         </div>
-        <div className=" mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 ">
+        <div className=" mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden mt-2 md:h-70 md:w-70 lg:h-96 lg:w-96 ">
               <Image src={me} layout="fill" objectFit="cover" />
             </div>
         {/* <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
