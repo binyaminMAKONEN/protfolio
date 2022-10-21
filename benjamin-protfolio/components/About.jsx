@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-// import Link from 'next/link';
+import Link from 'next/link';
 // import AboutImg from '../public/assets/about.jpg';
 
 const About = ({me}) => {
@@ -31,18 +31,15 @@ const About = ({me}) => {
             time I run Code Commerce, a Youtube channel where I teach web
             developement and various front-end technologies.
           </p>
-          {/* <Link href='/#projects'> */}
+          <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               Check out some of my latest projects.
             </p>
-          {/* </Link> */}
+          </Link>
         </div>
-        <div className=" mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 relative overflow-hidden mt-2 md:h-70 md:w-70 lg:h-96 lg:w-96 ">
-              <Image src={me} layout="fill" objectFit="cover" />
-            </div>
-        {/* <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-          <Image src={AboutImg} className='rounded-xl' alt='/' />
-        </div> */}
+        <div className=' relative overflow-hidden h-60 w-60 m-auto shadow-xl shadow-gray-400 rounded-full flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+          <Image src={me}  layout="fill" objectFit="cover" alt='/' />
+        </div>
       </div>
     </div>
   );
