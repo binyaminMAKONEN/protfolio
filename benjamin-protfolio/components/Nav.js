@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsFillMoonStarsFill,BsSun } from "react-icons/bs";
+import Link from 'next/link'
 const Nav = ({activeDarkMode,darkMode}) => {
 
   return (
@@ -23,10 +24,10 @@ const Nav = ({activeDarkMode,darkMode}) => {
                 className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
               >
               
-                <a href='https://content.celero.io/s/56798897/binyamin-cv/?is_fit_page_zoom=true' target='blank'>
+                <Link href='resume'>
 
                   Resume
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

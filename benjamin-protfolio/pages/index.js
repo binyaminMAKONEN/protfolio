@@ -25,7 +25,7 @@ export default function Home() {
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
           <Nav activeDarkMode={activeDarkMode} darkMode={darkMode}/>
-          <Main me={me} />
+          <Main />
           <About me={me} />
           <Skills />
           <Projects/>

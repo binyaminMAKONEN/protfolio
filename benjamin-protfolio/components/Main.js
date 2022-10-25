@@ -6,7 +6,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 
-const Main = ({me}) => {
+const Main = () => {
   return (
     <div id='home' className='w-full text-center py-10'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
@@ -42,20 +42,13 @@ const Main = ({me}) => {
                 <FaGithub />
               </div>
             </a>
-            {/* <Link href='/#contact'> */}
               <div className='rounded-full bg-white dark:shadow-none shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
               </div>
-            {/* </Link> */}
-            {/* <Link href='/resume'> */}
               <div className='rounded-full bg-white dark:shadow-none shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>
-            {/* </Link> */}
           </div>
-          {/* <div className=" mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 ">
-              <Image src={me} layout="fill" objectFit="cover" />
-            </div> */}
         </div>
       </div>
     </div>
