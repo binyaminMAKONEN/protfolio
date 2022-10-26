@@ -24,7 +24,12 @@ const Nav = ({activeDarkMode,darkMode}) => {
                 className="bg-gradient-to-r from-cyan-700 text- to-cyan-500 dark:bg-gradient-to-r dark:from-cyan-500 text- dark:to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
               >
               
-                <Link href='resume'>
+                <Link 
+                 href="https://resume.creddle.io/embed/96k6kivn40"
+                 onclick="window.open('MyPDF.pdf', '_blank', 'fullscreen=yes'); return false;"
+                 target='_blank'
+                // href='/resume'
+                >
 
                   Resume
                 </Link>

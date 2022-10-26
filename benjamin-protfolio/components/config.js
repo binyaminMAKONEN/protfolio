@@ -21,3 +21,6 @@ const technicalSkills = [
     {img:Node,text:'Node'}
 ]
 export default  technicalSkills 
+
+
+  

@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import ProjectItem from './ProjectItem';
@@ -8,6 +6,12 @@ import spotifyApp from "../public/spotifyApp.png";
 import gameApp from "../public/gameApp.png";
 
 const Projects = () => {
+  const projects = [
+    {title: 'Youtube App',img:youTube,link:'/youTube',tech:'React JS'},
+    {title: 'SpotifyApp App',img:spotifyApp,link:'/SpotifyApp',tech:'React JS'},
+    {title: 'Netflix App',img:netflixImg,link:'/netflix',tech:'React JS'},
+    {title: 'Bullets-pop-game',img:gameApp,link:'/GameApp',tech:'JS'}
+  ]
   return (
     <div id='projects' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
@@ -16,33 +20,18 @@ const Projects = () => {
         </p>
         <h2 className='py-4 dark:text-white'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-          <ProjectItem
-            title='Youtube App'
-            backgroundImg={youTube}
-            projectUrl='/youTube'
-            tech='React JS'
-          />
-          <ProjectItem
-            title='SpotifyApp App'
-            backgroundImg={spotifyApp}
-            projectUrl='/SpotifyApp'
-            tech='React JS'
+          {
+            projects.map((project,i)=>(
 
-          />
-          <ProjectItem
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
-
-          />
-          <ProjectItem
-            title='Bullets-pop-game'
-            backgroundImg={gameApp}
-            projectUrl='/GameApp'
-            tech='JS'
-
-          />
+              <ProjectItem
+              key={i}
+                title={project.title}
+                backgroundImg={project.img}
+                projectUrl={project.link}
+                tech={project.tech}
+              />
+            ))
+          }
         </div>
       </div>
     </div>
