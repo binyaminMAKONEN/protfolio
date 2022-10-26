@@ -25,7 +25,7 @@ const Main = () => {
           
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/binyamin-makonen/'
               target='_blank'
               rel='noreferrer'
             >
@@ -34,7 +34,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/binyaminMAKONEN'
               target='_blank'
               rel='noreferrer'
             >
@@ -42,12 +42,16 @@ const Main = () => {
                 <FaGithub />
               </div>
             </a>
+            <Link href='mailto:banmkonen@gmail.com'>
               <div className='rounded-full bg-white dark:shadow-none shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
               </div>
+            </Link>
+            <Link href='tel:+972547524222'>
               <div className='rounded-full bg-white dark:shadow-none shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <BsFillPersonLinesFill />
               </div>
+            </Link>
           </div>
         </div>
       </div>
