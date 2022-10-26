@@ -21,7 +21,7 @@ const Nav = ({activeDarkMode,darkMode}) => {
               }
               </li>
               <li
-                className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                className="bg-gradient-to-r from-cyan-700 text- to-cyan-500 dark:bg-gradient-to-r dark:from-cyan-500 text- dark:to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
               >
               
                 <Link href='resume'>
