@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
 import Image from "next/image";
-import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { AiOutlineMail ,AiOutlinePhone } from 'react-icons/ai';
+// import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 
@@ -49,7 +49,7 @@ const Main = () => {
             </Link>
             <Link href='tel:+972547524222'>
               <div className='rounded-full bg-white dark:shadow-none shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <BsFillPersonLinesFill />
+                <AiOutlinePhone />
               </div>
             </Link>
           </div>
