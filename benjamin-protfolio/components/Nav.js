@@ -25,10 +25,11 @@ const Nav = ({activeDarkMode,darkMode}) => {
               >
               
                 <Link 
-                 href="https://resume.creddle.io/embed/96k6kivn40"
-                 onclick="window.open('MyPDF.pdf', '_blank', 'fullscreen=yes'); return false;"
-                 target='_blank'
+                //  href="https://resume.creddle.io/embed/96k6kivn40"
+                //  onclick="window.open('MyPDF.pdf', '_blank', 'fullscreen=yes'); return false;"
+                //  target='_blank'
                 // href='/resume'
+                target={"_blank"} rel="noreferrer"  href="https://drive.google.com/drive/u/2/my-drive/view?usp=sharing"
                 >
 
                   Resume
