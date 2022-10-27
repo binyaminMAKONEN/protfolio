@@ -29,7 +29,7 @@ const Nav = ({activeDarkMode,darkMode}) => {
                 //  onclick="window.open('MyPDF.pdf', '_blank', 'fullscreen=yes'); return false;"
                 //  target='_blank'
                 // href='/resume'
-                target={"_blank"} rel="noreferrer"  href="https://drive.google.com/drive/u/2/my-drive/view?usp=sharing"
+                target={"_blank"} rel="noreferrer"  href="https://drive.google.com/file/d/1Rt7Md49rPVcyo0fbpgUXxioUAgAY6gzq/view?usp=sharing"
                 >
 
                   Resume
