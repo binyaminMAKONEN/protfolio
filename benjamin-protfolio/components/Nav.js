@@ -4,8 +4,8 @@ import Link from 'next/link'
 const Nav = ({activeDarkMode,darkMode}) => {
 
   return (
-    <nav className=" py-10 mb-12 flex justify-between bg-white dark:bg-gray-900 dark:text-white sticky top-0 z-10">
-            <h1 className="font-medium text-xl">Benjamin Makonen Portfolio</h1>
+    <nav className=" py-10 mb-12 flex justify-between items-center bg-white dark:bg-gray-900 dark:text-white sticky top-0 z-10">
+            <h1 className="font-medium text-xl">Benjamin Makonen </h1>
             <ul className="flex items-center">
               <li>
                 {darkMode?
@@ -25,10 +25,6 @@ const Nav = ({activeDarkMode,darkMode}) => {
               >
               
                 <Link 
-                //  href="https://resume.creddle.io/embed/96k6kivn40"
-                //  onclick="window.open('MyPDF.pdf', '_blank', 'fullscreen=yes'); return false;"
-                //  target='_blank'
-                // href='/resume'
                 target={"_blank"} rel="noreferrer"  href="https://drive.google.com/file/d/1Rt7Md49rPVcyo0fbpgUXxioUAgAY6gzq/view?usp=sharing"
                 >
 

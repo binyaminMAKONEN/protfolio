@@ -4,13 +4,14 @@ import ProjectItem from './ProjectItem';
 import youTube from "../public/youTube.png";
 import spotifyApp from "../public/spotifyApp.png";
 import gameApp from "../public/gameApp.png";
+import chat from "../public/chat.png";
 
 const Projects = () => {
   const projects = [
     {title: 'Youtube App',img:youTube,link:'/youTube',tech:'React JS'},
-    {title: 'SpotifyApp App',img:spotifyApp,link:'/SpotifyApp',tech:'React JS'},
-    {title: 'Netflix App',img:netflixImg,link:'/netflix',tech:'React JS'},
-    {title: 'Bullets-pop-game',img:gameApp,link:'/GameApp',tech:'JS'}
+    {title: 'SpotifyApp App',img:spotifyApp,link:'/spotifyApp',tech:'React JS'},
+    {title: 'chat App',img:chat,link:'/chat',tech:'Next JS'},
+    {title: 'Bullets-pop-game',img:gameApp,link:'/GameApp',tech:'JS'},
   ]
   return (
     <div id='projects' className='w-full'>

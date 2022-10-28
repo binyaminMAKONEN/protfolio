@@ -14,7 +14,7 @@ const About = ({me}) => {
           </p>
           <h2 className='py-4 dark:text-white'>Who I Am</h2>
           <p className='py-2 text-gray-600 dark:text-white'>
-          Hi, I am a graduate of the software development course at Tech-Career College. From a young age I have always been deeply fascinated by computers and technology. After many thought and long military service in the IDF, I decided that software development is the profession I would like to pursue. Along with the skills I will acquire in college and the personal skills that have improved in the military services, I will bring with me a strong work ethic, self-learning ability, high motivation to learn new systems and good teamwork.
+          Hi, I am a graduate of the software development course at Tech-Career College. From a young age I have always been deeply fascinated by computers and technology. After many thought I decided that software development is the profession I would like to pursue. Along with the skills I will acquire in college and my personal skills , I will bring with me a strong work ethic, self-learning ability, high motivation to learn new systems and good teamwork.
           </p>
           <p className='py-2  text-gray-600 dark:text-white'>
             I specialize in building mobile responsive front-end UI applications
