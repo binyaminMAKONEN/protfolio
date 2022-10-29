@@ -9,8 +9,8 @@ import chat from "../public/chat.png";
 const Projects = () => {
   const projects = [
     {title: 'Youtube App',img:youTube,link:'/youTube',tech:'React JS'},
-    {title: 'SpotifyApp App',img:spotifyApp,link:'/spotifyApp',tech:'React JS'},
-    {title: 'chat App',img:chat,link:'/chat',tech:'Next JS'},
+    // {title: 'SpotifyApp App',img:spotifyApp,link:'/spotifyApp',tech:'React JS'},
+    // {title: 'chat App',img:chat,link:'/chat',tech:'Next JS'},
     {title: 'Bullets-pop-game',img:gameApp,link:'/GameApp',tech:'JS'},
   ]
   return (

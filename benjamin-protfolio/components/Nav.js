@@ -25,7 +25,7 @@ const Nav = ({activeDarkMode,darkMode}) => {
               >
               
                 <Link 
-                target={"_blank"} rel="noreferrer"  href="https://drive.google.com/file/d/1Rt7Md49rPVcyo0fbpgUXxioUAgAY6gzq/view?usp=sharing"
+                target={"_blank"} rel="noreferrer"  href="https://drive.google.com/file/d/1Tc-SHEtkmFc7NeWwvLfqMILMwWQ1DNd5/view?usp=sharing"
                 >
 
                   Resume
