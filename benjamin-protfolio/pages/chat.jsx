@@ -28,7 +28,8 @@ const chat = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in Next JS 
+          built in Next.js This project is powered by Chat Engine. When a user connects to the system, a post request is sent to the chat engine with the username and password that the user created, which is required in order to create a chat room only after the details have been entered
+          You can get access to the chat rooms. The system allows the user to create chat groups and chat with other users in private rooms
           </p>
           <a
             href='#'

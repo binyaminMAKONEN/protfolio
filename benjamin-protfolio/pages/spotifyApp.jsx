@@ -27,11 +27,12 @@ const SpotifyApp = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          I built this application in React JS 
+          Spotify app. With a modern home page, full music player, search, lyrics, song exploration features, search, popular music around you, worldwide top charts and much more,
+          This app was built with React Vit, it includes an api from Shazam that is divided into hooks, each of them is a different call to pull specific pieces of data
           </p>
           <a
-            // href=''
-            // target='_blank'
+            href='https://spotify-app-lovat.vercel.app/'
+            target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
