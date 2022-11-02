@@ -32,7 +32,7 @@ const chat = () => {
           You can get access to the chat rooms. The system allows the user to create chat groups and chat with other users in private rooms
           </p>
           <a
-            href='https://protfolio-blush.vercel.app/chat'
+            href='https://github.com/binyaminMAKONEN/chat-app'
             target='_blank'
             rel='noreferrer'
           >
